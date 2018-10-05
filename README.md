@@ -18,33 +18,15 @@
 :point_down:Screenshot:
 
 <p align="center">
-  <img src="https://s18.postimg.cc/l01x6fn3d/demo1.png" width="600px" alt="">
+  <img src="https://1drv.ms/u/s!Aj78dDz48SKpjCbGrAolVBvKInXC" width="600px" alt="">
 </p>
 
 ------------------
-
-## Docker Installation
-
-Build the image
-
-```shell
-cd keras-flask-deploy-webapp
-docker build -t keras_flask .
-docker run -e MODEL_PATH=models/your_model.h5 -p 5000:5000
-```
-
-You can mount your model into the container.
-
-```shell
-docker run -e MODEL_PATH=/mnt/models/your_model.h5  -v volume-name:/mnt/models -p 5000:5000 keras_flask
-```
-
-
 ## Local Installation
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/mtobeiyf/keras-flask-deploy-webapp.git
+$ git clone https://github.com/palanithanarajk/pneumonia-diagnosis.git
 ```
 
 ### Install requirements
@@ -74,26 +56,10 @@ $ python app.py
 Open http://localhost:5000 and have fun. :smiley:
 
 <p align="center">
-  <img src="https://s18.postimg.cc/5ekln1vvt/demo2.gif" width="600px" alt="">
+  <img src="https://1drv.ms/u/s!Aj78dDz48SKpjCcOzb2GvMsvxWLp" width="600px" alt="">
 </p>
 
 ------------------
-
-## Customization
-
-### Use your own model
-
-Place your trained `.h5` file saved by `model.save()` under models directory.
-
-Check the [commented code](https://github.com/mtobeiyf/keras-flask-deploy-webapp/blob/master/app.py#L25) in app.py.
-
-
-### Use other pre-trained model
-
-See [Keras applications](https://keras.io/applications/) for more available models such as DenseNet, MobilNet, NASNet, etc.
-
-Check [this section](https://github.com/mtobeiyf/keras-flask-deploy-webapp/blob/master/app.py#L25) in app.py.
-
 ### UI Modification
 
 Modify files in `templates` and `static` directory.
