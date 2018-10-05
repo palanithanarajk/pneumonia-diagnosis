@@ -57,7 +57,7 @@ Open http://localhost:5000 and have fun. :smiley:
 ![alt text](https://i.postimg.cc/W4FKFqT7/image.png)
 
 > Diagnosis
-![alt text](https://i.postimg.cc/W4FKFqT7/image.png)
+![alt text](https://i.postimg.cc/4y9zktkm/image.png)
 
 
 ------------------
