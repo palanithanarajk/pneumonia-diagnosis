@@ -17,9 +17,7 @@
 
 :point_down:Screenshot:
 
-<p align="center">
-  <img src="https://1drv.ms/u/s!Aj78dDz48SKpjCbGrAolVBvKInXC" width="600px" alt="">
-</p>
+![alt text](https://i.postimg.cc/6qYBQ4fh/image.png)
 
 ------------------
 ## Local Installation
@@ -55,9 +53,12 @@ $ python app.py
 
 Open http://localhost:5000 and have fun. :smiley:
 
-<p align="center">
-  <img src="https://1drv.ms/u/s!Aj78dDz48SKpjCcOzb2GvMsvxWLp" width="600px" alt="">
-</p>
+> Analyze
+![alt text](https://i.postimg.cc/W4FKFqT7/image.png)
+
+> Diagnosis
+![alt text](https://i.postimg.cc/W4FKFqT7/image.png)
+
 
 ------------------
 ### UI Modification
