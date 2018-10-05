@@ -1,9 +1,9 @@
-# Deploy Keras Model with Flask as Web App in 10 Minutes
+# Computer Aided Diagnosis of Pneumonia based on Transfer Learning of VGG16
+
+> Based on Transfer Learning of VGG16 architecture. The work uses Kaggle Pneumonia dataset https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/home for training and validation. It uses Flask webapp by mtobeiyf to deploy the Keras Model https://github.com/mtobeiyf/keras-flask-deploy-webapp.
 
 [![](https://img.shields.io/badge/python-2.7%2C%203.5%2B-green.svg)]()
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-
-> A pretty and customizable web app to deploy your DL model with ease
 
 ------------------
 
