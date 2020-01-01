@@ -100,7 +100,7 @@ server {
     }
 }
 ```
-## A Heroku App Deployement using this code
+## A Heroku App Deployment using this code
 Try this live AI Demo
 https://dl-cad-pneumonia.herokuapp.com/
 
