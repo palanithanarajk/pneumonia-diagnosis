@@ -100,9 +100,9 @@ server {
     }
 }
 ```
-## A Google App Engine Deployement using this code
+## A Heroku App Deployement using this code
 Try this live AI Demo
-https://valiant-metric-208417.appspot.com/
+https://dl-cad-pneumonia.herokuapp.com/
 
 ## More resources
 
