@@ -1,12 +1,11 @@
-from __future__ import division, print_function
 # coding=utf-8
+from __future__ import division, print_function
 import sys
 import os
 import glob
 import re
 import numpy as np
-
-# Keras
+import keras
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.models import load_model
 from keras.preprocessing import image
@@ -85,7 +84,9 @@ def upload():
 
 if __name__ == '__main__':
     # app.run(port=5002, debug=True)
-
+   
     # Serve the app with gevent
-    http_server = WSGIServer(('', int(os.environ.get('PORT'))), app)
+    http_server = WSGIServer(('', 5000), app)
+    #http_server = WSGIServer(('', int(os.environ.get('PORT'))), app)
+    #http_server = WSGIServer(('', int(os.environ.get('PORT'))), app)
     http_server.serve_forever()
