@@ -19,7 +19,7 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/chestv-Copy.h5'
+MODEL_PATH = 'models/chestx-arc-wt.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
